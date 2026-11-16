@@ -30,3 +30,4 @@ td.num,th.num{text-align:right}
 #toast.show{opacity:1}
 .clickrow{cursor:pointer}.clickrow:hover{background:var(--bg)}
 @media (max-width:640px){.lines thead{display:none}.lines tr{display:grid;grid-template-columns:1fr 1fr;gap:6px;border-bottom:1px solid var(--line);padding:8px 0}.lines td{border:none;padding:0}.lines td.wide{grid-column:1/-1}}
+nav[hidden]{display:none}
